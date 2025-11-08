@@ -1,19 +1,138 @@
-# Privacy Policy
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Worthify Policies</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Worthify legal and policy documents">
+  <style>
+    :root { color-scheme: light dark; }
+    * { box-sizing: border-box; }
+    body {
+      font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: radial-gradient(circle at top, #dbeafe, #f8fafc 55%);
+      color: #0f172a;
+    }
+    main {
+      width: min(720px, 92%);
+      margin: 4rem auto;
+      padding: clamp(2.5rem, 4vw, 3.5rem);
+      background: #ffffff;
+      border-radius: 24px;
+      box-shadow: 0 28px 80px -48px rgba(15, 23, 42, 0.45);
+      border: 1px solid rgba(148, 163, 184, 0.18);
+    }
+    h1 {
+      font-size: clamp(2.4rem, 5vw, 3.1rem);
+      letter-spacing: -0.03em;
+      margin-bottom: 0.35rem;
+    }
+    p {
+      margin: 0 0 1.4rem;
+      line-height: 1.65;
+      font-size: 1.05rem;
+      color: #334155;
+    }
+    .meta {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+      font-size: 0.95rem;
+      margin-bottom: 1rem;
+      color: #475569;
+    }
+    nav {
+      margin-top: 2.2rem;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 1.5rem 0 0;
+      display: grid;
+      gap: 1rem;
+    }
+    li {
+      border-radius: 16px;
+      border: 1px solid rgba(148, 163, 184, 0.22);
+      padding: 1.3rem 1.6rem;
+      transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+      background: rgba(255, 255, 255, 0.9);
+    }
+    li:hover {
+      transform: translateY(-3px);
+      border-color: rgba(59, 130, 246, 0.35);
+      box-shadow: 0 16px 40px -28px rgba(29, 78, 216, 0.35);
+    }
+    a {
+      color: inherit;
+      text-decoration: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    a span:first-child {
+      font-weight: 600;
+      font-size: 1.05rem;
+      color: #1d4ed8;
+    }
+    a span:last-child {
+      color: #64748b;
+      font-size: 0.95rem;
+    }
+    footer {
+      margin-top: 2.8rem;
+      padding-top: 1.6rem;
+      border-top: 1px solid rgba(148, 163, 184, 0.25);
+      font-size: 0.95rem;
+      color: #475569;
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+    }
+    @media (max-width: 640px) {
+      body { background: #f8fafc; }
+      main { margin: 3rem auto; padding: 2rem; border-radius: 18px; }
+      li { padding: 1.15rem 1.35rem; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Worthify Policies</h1>
+    <div class="meta">
+      <span>Last updated: March 1, 2025</span>
+    </div>
+    <p>Welcome to Worthify’s policy portal. Here you’ll find the legal terms, policies, and disclosures that govern your use of the Worthify mobile application. Please review these documents carefully.</p>
+    <p>If you have any questions about these documents or need further assistance, contact us at
+      <a href="mailto:hello@teodordev.com">hello@teodordev.com</a>.
+    </p>
 
-This is the Privacy Policy for [Your App Name].
+    <nav>
+      <h2>Documents</h2>
+      <ul>
+        <li>
+          <a href="terms-of-use.html">
+            <span>Terms of Use</span>
+            <span>Effective March 1, 2025 →</span>
+          </a>
+        </li>
+        <li>
+          <a href="privacy-policy.html">
+            <span>Privacy Policy</span>
+            <span>Effective March 1, 2025 →</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
 
-...
-
----
-
-# Terms of Use
-
-These are the Terms of Use for [Your App Name].
-
-...
-
----
-
-# Contact
-
-For support, email: @gmail.com
+    <footer>
+      <span>Worthify by Teodor V.</span>
+      <span>Contact: <a href="mailto:hello@teodordev.com">hello@teodordev.com</a></span>
+    </footer>
+  </main>
+</body>
+</html>
