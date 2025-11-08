@@ -16,4 +16,4 @@ These are the Terms of Use for [Your App Name].
 
 # Contact
 
-For support, email: teodor.devv@gmail.com
+For support, email: @gmail.com
