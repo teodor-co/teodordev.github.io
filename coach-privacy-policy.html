@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -92,7 +91,9 @@
     <p class="meta">Effective date: March 1, 2025</p>
 
     <div class="notice">
-      Coach stores the information you enter locally on your device. We do not store your workout logs or related information on our own servers and do not sell, share, or monetize your personal information. We may, however, collect limited anonymous usage events (such as event names indicating which features are used) via a third-party analytics service to help improve the App.
+      Coach stores the information you enter locally on your device. We do not store your workout logs or related information on our own servers and do not sell your personal information.
+      If you purchase a subscription, subscription verification and entitlement status may be processed via Apple’s in-app purchase system and a third-party provider (RevenueCat).
+      We may also collect limited anonymous usage events (such as event names indicating which features are used) via a third-party analytics service to help improve the App.
     </div>
 
     <p>
@@ -101,13 +102,26 @@
     </p>
 
     <h2>1. Information We Collect</h2>
-    <p>Coach allows you to track gym sessions and view your history. The App stores the following categories of data <strong>locally on your device</strong> using secure device storage (AsyncStorage):</p>
+    <p>
+      Coach allows you to track gym sessions and view your history. The App stores the following categories of data <strong>locally on your device</strong>
+      using device storage (AsyncStorage):
+    </p>
     <ul>
       <li><strong>Workout tracking data:</strong> Your selected sessions-per-week target, logged sessions (dates), and weekly history.</li>
       <li><strong>Coach state:</strong> App-generated score/mood state derived from your logging patterns (used only to drive in-app behavior).</li>
       <li><strong>App preferences:</strong> Onboarding status, notification preferences, and other in-app settings.</li>
     </ul>
-    <p>No account registration is required, and we do not collect names, email addresses, or other contact details unless you choose to contact us directly.</p>
+
+    <p>
+      <strong>Subscription and purchase data (if you subscribe):</strong> If you purchase a subscription, the App may process purchase-related information
+      to verify subscription status and unlock paid features. This may include app store transaction/receipt information and app-scoped identifiers.
+      Purchases are handled by the app store (for example, Apple) and subscription status may be verified via a third-party subscription management provider (RevenueCat).
+      We do not collect your workout logs, targets, or Coach state for subscription verification.
+    </p>
+
+    <p>
+      No account registration is required, and we do not collect names, email addresses, or other contact details unless you choose to contact us directly.
+    </p>
 
     <h2>2. How We Use Your Information</h2>
     <p>All workout, state, and preference information is stored and processed locally on your device. We use it only to:</p>
@@ -118,7 +132,16 @@
       <li>Schedule local reminders on your device (if you enable notifications).</li>
       <li>Remember that you have completed onboarding and your settings.</li>
     </ul>
-    <p>We do not transmit or process your workout logs on external servers. However, we may send limited anonymous usage analytics events (such as event names indicating which features are used) to a third-party service to help improve the App; these events do not include your logged session dates, targets, or any text you enter.</p>
+
+    <p>
+      <strong>Subscriptions (if offered):</strong> If you purchase a subscription, we use purchase/receipt and entitlement status information to:
+      (a) verify your subscription, (b) enable or disable paid features, (c) restore purchases, and (d) help prevent fraud or abuse.
+    </p>
+
+    <p>
+      We do not transmit or process your workout logs on external servers. However, we may send limited anonymous usage analytics events (such as event names indicating which features are used)
+      to a third-party service to help improve the App; these events do not include your logged session dates, targets, or any text you enter.
+    </p>
 
     <h2>3. Data Storage and Retention</h2>
     <ul>
@@ -126,19 +149,48 @@
       <li>Data remains on your device until you delete it, uninstall the App, or clear the App’s data.</li>
       <li>You can reset your data by using system settings to delete the App’s storage or by reinstalling the App.</li>
       <li>Anonymous usage analytics events we send to our third-party provider may be stored for a limited time to help us understand usage and maintain the App; these events do not include your workout logs or targets.</li>
+      <li>Subscription-related records maintained by the app store (and by subscription service providers used for verification) may be retained according to their policies and legal obligations.</li>
     </ul>
 
     <h2>4. Data Sharing and Transfers</h2>
-    <p>We do not share, sell, rent, or trade personal information. We do not transfer your workout logs or Coach state to third parties. Coach operates without remote servers for your workout data, so this information never leaves your device unless you explicitly export or share it yourself. We may use a third-party service to process anonymous usage analytics events on our behalf; these events do not include your workout logs, targets, or any text you enter.</p>
+    <p>
+      We do not sell your personal information. We do not transfer your workout logs or Coach state to third parties.
+      Coach operates without remote servers for your workout data, so this information never leaves your device unless you explicitly export or share it yourself.
+    </p>
+
+    <p>
+      <strong>Subscription verification:</strong> If you subscribe, we may share limited purchase/receipt and entitlement-related information with third parties strictly to provide subscription functionality:
+      the app store provider (for example, Apple) and our subscription management provider (RevenueCat). This information is used to verify purchases, manage entitlements, restore purchases, and help prevent fraud.
+      We do not share your workout logs, targets, or Coach state with these providers.
+    </p>
+
+    <p>
+      <strong>Analytics:</strong> We may use a third-party service to process anonymous usage analytics events on our behalf; these events do not include your workout logs, targets, or any text you enter.
+    </p>
 
     <h2>5. Analytics and Tracking</h2>
-    <p>Coach may use a lightweight analytics implementation that records anonymous usage events (for example, event names indicating which features are used). We do not use advertising SDKs or third-party cookies, and we do not track your activity across other sites or apps.</p>
+    <p>
+      Coach may use a lightweight analytics implementation that records anonymous usage events (for example, event names indicating which features are used).
+      We do not use advertising SDKs or third-party cookies, and we do not track your activity across other sites or apps.
+    </p>
 
     <h2>6. Notifications</h2>
-    <p>If you enable notifications, Coach schedules reminders <strong>locally on your device</strong>. Notification scheduling uses your local device time. We do not send push notifications from our own servers.</p>
+    <p>
+      If you enable notifications, Coach schedules reminders <strong>locally on your device</strong>. Notification scheduling uses your local device time.
+      We do not send push notifications from our own servers.
+    </p>
 
     <h2>7. Third-Party Services</h2>
-    <p>The App may include open-source libraries (for example, Flutter, supporting packages, and icon libraries). These components run locally. If you follow any external links from the App (for example, to our policy pages), those services are governed by their own privacy policies. We recommend you review their policies before providing any information.</p>
+    <p>
+      Coach may use third-party services to provide certain functionality. These third parties process information according to their own privacy policies.
+      We recommend reviewing those policies.
+    </p>
+    <ul>
+      <li><strong>App Store / In-App Purchases:</strong> Purchases are processed by the app store provider (for example, Apple). The app store may process purchase and transaction information.</li>
+      <li><strong>RevenueCat (Subscription Management):</strong> If you subscribe, we use RevenueCat to help verify subscription status and manage entitlements (including restoring purchases). RevenueCat may process transaction/receipt information, app-scoped identifiers, and device/network information (such as IP address) for fraud prevention and entitlement management. We do not send your workout logs, targets, or Coach state to RevenueCat.</li>
+      <li><strong>Analytics Provider (if enabled):</strong> We may send anonymous usage events (such as event names indicating which features are used) to help improve the App.</li>
+      <li><strong>Open-source libraries:</strong> The App may include open-source libraries (for example, Flutter and supporting packages). These components run locally.</li>
+    </ul>
 
     <h2>8. Security</h2>
     <p>We rely on the built-in security of your device and the operating system’s storage mechanisms. To protect your data:</p>
@@ -150,32 +202,49 @@
     <p>No method of electronic storage is perfectly secure; please use caution when entering sensitive information.</p>
 
     <h2>9. Your Rights</h2>
-    <p>Because we do not collect or store your data on our servers, data rights under GDPR, CCPA, or similar regulations (access, correction, deletion, export) are handled by you directly on your device. To exercise these rights:</p>
+    <p>
+      Because we do not collect or store your workout data on our servers, data rights under GDPR, CCPA, or similar regulations (access, correction, deletion, export)
+      for that locally-stored data are handled by you directly on your device. To exercise these rights:
+    </p>
     <ul>
       <li>Modify or delete information within the App (where supported).</li>
       <li>Delete the App or clear its storage from your device settings to remove all stored data.</li>
       <li>Reinstall the App if you want to start over with no data.</li>
     </ul>
-    <p>If you contact us directly (e.g., by email), we will only use your contact information to respond to your inquiry and will delete it once the request is resolved, unless you request otherwise or we are legally required to retain it.</p>
+
+    <p>
+      For purchase and subscription records, the app store provider (for example, Apple) controls those records in your store account, subject to their policies.
+    </p>
+
+    <p>
+      If you contact us directly (e.g., by email), we will only use your contact information to respond to your inquiry and will delete it once the request is resolved,
+      unless you request otherwise or we are legally required to retain it.
+    </p>
 
     <h2>10. Children’s Privacy</h2>
-    <p>Coach is not intended for children under the age of 16. We do not knowingly collect personal information from children. If you believe a child has provided us with their information, please contact us so we can remove it.</p>
+    <p>
+      Coach is not intended for children under the age of 16. We do not knowingly collect personal information from children.
+      If you believe a child has provided us with their information, please contact us so we can address it.
+    </p>
 
     <h2>11. Changes to This Policy</h2>
-    <p>We may update this Privacy Policy to reflect changes in the App or legal requirements. When we do, we will update the “Effective date” at the top of this page. If changes materially affect how we handle your data, we will notify you within the App or through other appropriate means.</p>
+    <p>
+      We may update this Privacy Policy to reflect changes in the App or legal requirements. When we do, we will update the “Effective date” at the top of this page.
+      If changes materially affect how we handle your data, we will notify you within the App or through other appropriate means.
+    </p>
     <p>Continued use of Coach after an update means you accept the revised policy. If you do not agree, please stop using the App.</p>
 
     <h2>12. Contact</h2>
     <p>If you have questions or concerns about this Privacy Policy, please contact:</p>
     <p>
-      Email: <a href="mailto:teodor.devv@gmail.com">teodor.devv@gmail.com</a><br>
+      Email: <a href="mailto:hello@teodordev.com">hello@teodordev.com</a><br>
       Developer: Teodor V.
     </p>
 
     <footer>
       <span>Coach by Teodor V.</span>
       <span>Contact: <a href="mailto:hello@teodordev.com">hello@teodordev.com</a></span>
-      <span>Policy version: 1.0</span>
+      <span>Policy version: 1.1</span>
     </footer>
   </main>
 </body>
